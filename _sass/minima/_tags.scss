@@ -1,0 +1,14 @@
+.tag {
+  color: $brand-color;
+  padding: 10px;
+  border: 1px solid $brand-color;
+  border-radius: 4px;
+  max-width: 100%;
+  display: inline-block;
+  transition: all ease 0.3s;
+
+  &:hover {
+    background: $brand-color;
+    color: $background-color;
+  }
+}
