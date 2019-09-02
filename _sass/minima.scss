@@ -45,4 +45,5 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import 'minima/base', 'minima/layout', 'minima/syntax-highlighting', 'minima/tags', 'minima/social';
+@import 'minima/base', 'minima/layout', 'minima/syntax-highlighting', 'minima/tags', 'minima/social',
+  'minima/sidebar';

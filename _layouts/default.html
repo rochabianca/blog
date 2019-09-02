@@ -3,7 +3,22 @@
   {%- include head.html -%}
   <body>
     <div class="container">
-      {%- include sidebar.html -%}
+    <header class="masthead">
+      <h1 class="masthead-title">
+      <a href="/">{{site.title}} <span>&#39;s blog</span></a>
+      </h1>
+      <nav class="masthead-nav">
+      {% for page in site.pages %}
+        <a href="{{page.url}}">{{page.title}}</a>
+      {% endfor %}
+    </nav>
+    </header>
+
+    <div class="sidebar">
+      <h1 class="sidebar__title">{{site.title}}</h1>
+      <p class="sidebar__description">{{site.description}}</p>
+    </div>
+
     </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
