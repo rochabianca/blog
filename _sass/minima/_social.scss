@@ -9,4 +9,9 @@
     margin: 0 5px;
     color: $gray;
   }
+
+  @media (max-width: 768px) {
+    margin-bottom: 5px;
+    justify-content: flex-start;
+  }
 }
