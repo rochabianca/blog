@@ -3,21 +3,7 @@
   {%- include head.html -%}
   <body>
     <div class="container">
-    <div class="sidebar">
-    <div class="sidebar__content">
-      <img src="assets/images/profile.png" class="sidebar__picture" alt="Foto de Bianca">
-      <div class="sidebar__text">
-        <h1 class="sidebar__title">{{site.title}}</h1>
-          {%- include social.html -%}
-          <p class="sidebar__description">{{site.description}}</p>
-      </div>
-    </div>
-    </div>
-
-    <main class="page sidebar__space" aria-label="Content">
-      <div class="page__wrapper">
-        {{ content }}
-      </div>
+      {{ content }}
     </main>
   </body>
 
