@@ -7,7 +7,7 @@
     %}
   </title>
   {%- seo -%}
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/main.css' | | prepend: site.baseurl }}" />
   <script src="https://kit.fontawesome.com/05089ac344.js"></script>
   {%- feed_meta -%} {%- if jekyll.environment == 'production' and site.google_analytics -%} {%-
   include google-analytics.html -%} {%- endif -%}
