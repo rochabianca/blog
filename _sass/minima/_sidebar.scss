@@ -70,6 +70,7 @@ $sidebar-size: 250px;
 }
 
 .sidebar__space {
+  margin-top: 1rem;
   margin-left: $sidebar-size;
 
   @media (max-width: 768px) {

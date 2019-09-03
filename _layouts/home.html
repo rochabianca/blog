@@ -13,17 +13,18 @@ layout: default
   </div>
 </div>
 
-<main class="posts sidebar__space" aria-label="Content">
-  <div class="posts__wrapper">
-    {% if site.posts.size == 0 %}
-    <p class="post__nopost">Vish, não encontramos nenhum post para mostrar :(</p>
-    {% else %} {% for post in site.posts %}
-    <div class="post">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3 class="post__title">{{ post.title }}</h3>
-        <span class="post__date">{{ post.date | date_to_string }}</span>
-      </a>
-    </div>
-    {% endfor %} {% endif %}
+<main class="posts sidebar__space container" aria-label="Content">
+  {% if site.posts.size == 0 %}
+  <p class="post__nopost">Vish, não encontramos nenhum post para mostrar :(</p>
+  {% else %} {% for post in site.posts %}
+  <div class="post">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h3 class="post__title">{{ post.title }}</h3>
+      {% if site.posts.tags %} {% for tag in post.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %} {% endif %}
+      <span class="post__date">{{ post.date | date_to_string }}</span>
+    </a>
   </div>
+  {% endfor %} {% endif %}
 </main>

@@ -44,6 +44,28 @@ $on-laptop: 800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 // Import partials.
 @import 'minima/variables', 'minima/base', 'minima/layout', 'minima/syntax-highlighting',
-  'minima/tags', 'minima/social', 'minima/sidebar';
+  'minima/tags', 'minima/social', 'minima/sidebar', 'minima/posts';
