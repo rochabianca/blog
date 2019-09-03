@@ -1,4 +1,12 @@
 .social {
   list-style: none;
+  margin-left: 0px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .social__icon {
+    margin: 0 5px;
+    color: $gray;
+  }
 }
