@@ -13,9 +13,11 @@ redirect_from:
   - /dicas-e-cursos-para-quem-está-iniciando-no-front-end-d2d492b583f4
 ---
 
-![](assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpeg)
+![](assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg)
 
 Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front do Telegram (e que também passei ao tentar iniciar esta carreira) é… Por onde começar? Você vê todos aqueles sites maravilhosos, cheios de animações, efeitos, cores e não faz a mínima ideia de como repetir tais feitos. E quando você vai procurar por vagas, lhe pedem mil frameworks, React, Vue, Angular, Jquery e você simplesmente não sabe por onde começar a estudar. Bom, eu estou aqui para tentar te ajudar nesse caminho :D
+
+<!--more-->
 
 Bom, se você assim como eu não tinha IDEIA de onde começar, recomendo dar uma olhada nos Developer Roadmaps. Vou deixar um link para o de frontend de 2018 [aqui](https://github.com/kamranahmedse/developer-roadmap/blob/master/images/frontend.png) mas talvez você encontre um mais atual se for atrás. Ele é bem intuitivo e te da uma boa ideia do que começar a estudar.
 

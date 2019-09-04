@@ -13,6 +13,8 @@ published: true
 
 Olá! Nesse texto preparei um compilado de algumas dicas que podem te ajudar a criar layouts mais bonitos, mesmo sabendo pouco ou quase nada de design. Espero que seja útil :D
 
+<!--more-->
+
 # Alinhamento
 
 Uma coisa importante para se ter em mente na hora de fazer um design bonito é o alinhamento das coisas. Em resumo **quando você escolhe um alinhamento para uma seção do seu site, deve prosseguir com ele até a próxima seção (ou a quebra).**

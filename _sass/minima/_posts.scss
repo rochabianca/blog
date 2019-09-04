@@ -1,6 +1,6 @@
 .posts {
   max-width: 750px;
-  padding-left: 4rem;
+  padding-left: 5rem;
 
   .post {
     margin-bottom: 80px;
@@ -19,7 +19,6 @@
   .post__date {
     font-size: 18px;
     color: $gray;
-    margin-bottom: 10px;
   }
 
   .post__text {
@@ -32,7 +31,40 @@
 
     img {
       max-width: 100%;
-      max-height: 425px;
+      max-height: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding-left: 15px;
+    margin-left: auto;
+
+    .post {
+      margin-bottom: 40px;
+    }
+
+    .post__title {
+      font-size: 24px;
+    }
+
+    .post__date {
+      font-size: 14px;
+    }
+
+    .post__text {
+      margin-top: 15px;
+      max-width: 100%;
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: auto;
+      }
     }
   }
 }

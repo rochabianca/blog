@@ -1,6 +1,5 @@
 ---
 title: 'Como acertar no esquema de cor, um guia para iniciantes'
-description: 'Uma das coisas que mais sofri quando iniciei no caminho para me tornar uma Frontend foi como raios escolher as cores certas para meu site/aplicativo/webapp? Eu, como uma (imagino que) boa parte dos…'
 date: '2019-05-02T18:10:53.116Z'
 tags:
   - Cores
@@ -18,6 +17,8 @@ redirect_from:
 ![Foto de [Sharon Pittaway](https://unsplash.com/photos/iMdsjoiftZo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) no [Unsplash](https://unsplash.com/search/photos/color?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](assets/posts/como-acertar-no-esquema-de-cor/asset-1.jpeg)
 
 Uma das coisas que mais sofri quando iniciei no caminho para me tornar uma Frontend foi _como raios escolher as cores certas para meu site/aplicativo/webapp?_
+
+<!--more-->
 
 Eu, como uma (imagino que) boa parte dos desenvolvedores, comecei meus estudos ao entrar numa faculdade de computação, e — ao menos na minha faculdade — nunca foram abordadas coisas como palhetas de cores, tipografias, como passar a mensagem que você quer passar com o auxilio dessas ferramentas. Então estou aqui para tentar ajudar você a acertar um pouco mais na cor quando for necessário. Então vamos ao que interessa:
 

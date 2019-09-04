@@ -19,6 +19,8 @@ redirect_from:
 
 Uma situação que muito preocupa os desenvolvedores mais novos, e as vezes até mais antigos, é quando você está em busca do famigerado primeiro emprego, ou buscando trabalhar com novas tecnologias, mudar de rumo, e se depara com um aparente paradoxo: a necessidade de experiência naquela tecnologia em específico. Afinal como eu vou ter experiência em uma tecnologia nova se preciso trabalhar com ela para ter experiência?
 
+<!--more-->
+
 ### Cursos?
 
 É um primeiro passo importante para se começar a aprender mas tenha em mente: **fazer somente cursos online sem prática muito dificilmente vai lhe levar a aprender o necessário para um emprego.** É muito comum, ir fazendo um curso atrás do outro sem parar para tentar aplicar o que você aprendeu na prática. E mais comum ainda, depois de terminar todos os cursos, travar completamente ao se deparar com um teste para uma vaga de emprego, por exemplo.
