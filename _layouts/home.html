@@ -20,10 +20,11 @@ layout: default
   <div class="post">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h3 class="post__title">{{ post.title }}</h3>
-      <div class="post__date">{{ post.date | date_to_string }}</div>
       {% if post.tags.size > 0 %} {% for tag in post.tags %}
       <span class="tag">{{ tag }}</span>
       {% endfor %} {% endif %}
+      <div class="post__date">{{ post.date | date_to_string }}</div>
+
       <div class="post__text">{{ post.excerpt }}</div>
     </a>
   </div>

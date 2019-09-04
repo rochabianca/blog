@@ -1,6 +1,10 @@
 .posts {
-  max-width: 100%;
+  max-width: 750px;
   padding-left: 4rem;
+
+  .post {
+    margin-bottom: 80px;
+  }
 
   a:hover {
     text-decoration: none;
@@ -24,6 +28,11 @@
     p {
       color: $darker-gray;
       font-size: 18px;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 425px;
     }
   }
 }
