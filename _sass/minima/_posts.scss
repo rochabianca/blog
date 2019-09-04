@@ -14,19 +14,22 @@
     font-size: 36px;
     margin-bottom: 5px;
     color: $black;
+    font-weight: bold;
   }
 
   .post__date {
-    font-size: 18px;
+    font-size: 16px;
     color: $gray;
   }
 
   .post__text {
     margin-top: 15px;
     max-width: 800px;
+    font-family: $font-serif;
+    line-height: 1.5;
     p {
       color: $darker-gray;
-      font-size: 18px;
+      font-size: 17px;
     }
 
     img {
@@ -58,7 +61,7 @@
       margin-top: 15px;
       max-width: 100%;
       p {
-        font-size: 16px;
+        font-size: 15px;
       }
 
       img {
