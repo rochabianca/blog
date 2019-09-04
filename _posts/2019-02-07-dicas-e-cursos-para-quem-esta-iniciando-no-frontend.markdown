@@ -1,4 +1,5 @@
 ---
+layout: article
 title: 'Dicas e cursos para quem está iniciando no Front-end'
 date: '2019-02-07T14:12:36.726Z'
 tags:

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="article container" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="row justify-content-center">
+    <header class="article__header col-lg-8">
+      <div class="d-flex align-items-baseline">
+        <!-- <a href="{{ '/' | prepend: site.baseurl }}">
+          <i class="fas fa-chevron-left article__back"></i>
+        </a> -->
+        <h1 class="article__title" itemprop="name headline">{{ page.title | escape }}</h1>
+      </div>
+
+      <p class="post-meta article__subtext">
+        <span class="article__author">
+          Escrito por: <a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+        </span>
+        <time
+          class="article__date"
+          datetime="{{ page.date | date_to_xmlschema }}"
+          itemprop="datePublished"
+        >
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+      </p>
+    </header>
+    <div class="col-lg-8 article__content" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </div>
+
+  {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -263,17 +263,6 @@ tbody tr:nth-child(odd) th {
   font-size: 1.25rem;
 }
 
-.container {
-  max-width: 38rem;
-  padding: 2rem 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media (min-width: 38rem) {
-    padding: 5rem 1rem;
-  }
-}
-
 .masthead {
   &-title {
     font-weight: 300;
