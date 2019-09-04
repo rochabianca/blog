@@ -1,3 +1,29 @@
 .posts {
   max-width: 100%;
+  padding-left: 4rem;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .post__title {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: $black;
+  }
+
+  .post__date {
+    font-size: 18px;
+    color: $gray;
+    margin-bottom: 10px;
+  }
+
+  .post__text {
+    margin-top: 15px;
+    max-width: 800px;
+    p {
+      color: $darker-gray;
+      font-size: 18px;
+    }
+  }
 }
