@@ -22,7 +22,7 @@ title: Bianca Rocha
 subtitle: Frontend Developer
 email: bianca.rocha1711@gmail.com
 description: 'Desenvolvedora Frontend, apaixonada por design'
-baseurl: '/blog-2.0' # the subpath of your site, e.g. /blog
+baseurl: '/blog' # the subpath of your site, e.g. /blog
 url: 'https://rochabianca.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 github_username: rochabianca
 dribbble_username: baiah
