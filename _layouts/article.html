@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <article class="article container" itemscope itemtype="http://schema.org/BlogPosting">
@@ -40,9 +41,7 @@ layout: default
             {%- include social.html className="footer__social" -%}
           </div>
         </div>
-
     </footer>
+    {%- if site.disqus-shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
   </div>
-
-  {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 </article>
