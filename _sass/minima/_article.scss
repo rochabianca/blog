@@ -28,6 +28,17 @@
       color: white;
     }
   }
+
+  .article__link--back {
+    color: $primary;
+    transition: all ease-in 0.3s;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      text-decoration: none;
+      border-color: $primary;
+    }
+  }
   .article__title {
     font-family: $font-sans-serif;
     font-weight: bold;
