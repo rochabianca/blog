@@ -6,8 +6,13 @@
   justify-content: center;
 
   .social__icon {
-    margin: 0 5px;
+    margin-right: 10px;
     color: $gray;
+    transition: all ease-in 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
   }
 
   @media (max-width: 768px) {

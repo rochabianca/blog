@@ -1,10 +1,32 @@
 .article {
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: $black;
+  position: relative;
+
   .article__back {
-    font-size: 42px;
-    color: $gray;
+    font-family: $font-sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    color: $primary;
+    padding: 5px 10px;
+    border: 1px solid $primary;
+    transition: all ease-in 0.3s;
+    position: absolute;
+    top: 8px;
+
+    .article__back--icon {
+      font-size: 10px;
+      vertical-align: middle;
+      padding-bottom: 4px;
+      border-radius: 4px;
+    }
+
+    &:hover {
+      text-decoration: none;
+      background: $primary;
+      color: white;
+    }
   }
   .article__title {
     font-family: $font-sans-serif;
@@ -43,6 +65,7 @@
   .article__content {
     font-family: $font-serif;
     margin-top: 30px;
+    margin-bottom: 60px;
     p {
       font-size: 18px;
       margin-bottom: 15px;
@@ -128,7 +151,7 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
     .article__back {
-      font-size: 32px;
+      display: none;
     }
     .article__title {
       font-size: 32px;

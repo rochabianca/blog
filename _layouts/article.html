@@ -3,14 +3,13 @@ layout: default
 ---
 
 <article class="article container" itemscope itemtype="http://schema.org/BlogPosting">
+  <a class="article__back" href="{{ '/' | prepend: site.baseurl }}">
+    <i class="fas fa-angle-double-left article__back--icon"></i>
+    Página Inicial
+  </a>
   <div class="row justify-content-center">
     <header class="article__header col-lg-8">
-      <div class="d-flex align-items-baseline">
-        <!-- <a href="{{ '/' | prepend: site.baseurl }}">
-          <i class="fas fa-chevron-left article__back"></i>
-        </a> -->
-        <h1 class="article__title" itemprop="name headline">{{ page.title | escape }}</h1>
-      </div>
+      <h1 class="article__title" itemprop="name headline">{{ page.title | escape }}</h1>
 
       <p class="post-meta article__subtext">
         <span class="article__author">
@@ -29,9 +28,21 @@ layout: default
     <div class="col-lg-8 article__content" itemprop="articleBody">
       {{ content }}
     </div>
+
+    <footer class="footer col-lg-8">
+      <a class="footer__link" href="{{ '/' | prepend: site.baseurl }}">
+        <div class="d-flex align-items-start align-items-lg-center">
+          <img src="assets/images/profile.png" class="footer__picture" alt="Foto de Bianca" />
+          <div class="footer__text">
+            <h1 class="footer__title">{{ site.title }}</h1>
+            <p class="footer__description">{{ site.description }}</p>
+          </a>
+            {%- include social.html className="footer__social" -%}
+          </div>
+        </div>
+
+    </footer>
   </div>
 
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
