@@ -9,8 +9,9 @@ tags:
   - Frontend
   - Dicas
   - Design
-published: true
 ---
+
+![](assets/posts/dicas-design-para-developers/asset-0.jpg)
 
 Olá! Nesse texto preparei um compilado de algumas dicas que podem te ajudar a criar layouts mais bonitos, mesmo sabendo pouco ou quase nada de design. Espero que seja útil :D
 
@@ -88,7 +89,7 @@ Como você provavelmente já está pensando, são tipografias sem serifas. S
 
 ![](assets/posts/dicas-design-para-developers/asset-8.png)
 
-Vamos mais uma vez olhar o texto acima: percebe como parece algo feito a mão? Olha esse ligamento entre o “s” e o “c”, como se fosse alguém de fato escrevendo, fazendo esses ligamentos para não tirar a caneta do papel. Isso é uma das características das tipografias Script. ​**Costumam ser muito utilizadas em eventos**,**​** como Natal, Casamentos, Dia dos Namorados, etc. Porém,porseremtãoestilosasecheiasdeligamentos,**n**​ **ãosão indicadas para textos longos, mas para títulos, marcas e anúncios.** U**​** ma coisa importante na hora de utilizar uma script é: ​**Sempre tenha uma tipografia para “parear” com ela.** <br/>
+Vamos mais uma vez olhar o texto acima: percebe como parece algo feito a mão? Olha esse ligamento entre o “s” e o “c”, como se fosse alguém de fato escrevendo, fazendo esses ligamentos para não tirar a caneta do papel. Isso é uma das características das tipografias Script. ​**Costumam ser muito utilizadas em eventos**,**​** como Natal, Casamentos, Dia dos Namorados, etc. Porém,por serem tão estilosas e cheias de ligamentos,**não são indicadas para textos longos, mas para títulos, marcas e anúncios.** U**​** ma coisa importante na hora de utilizar uma script é: ​**Sempre tenha uma tipografia para “parear” com ela.** <br/>
 
 > ### Nunca.
 >
@@ -129,7 +130,6 @@ Elas não tem boa leiturabilidade salvos casos muito raros, pois como dito ante
 - [Origamid - Tipografia Avançada - Todas as aulas gratuitas](https://www.origamid.com/curso/tipografia-avancada/)
 - [Origamid - Web Design Completo - Tipografia](https://www.origamid.com/curso/web-design-completo/2-1-4-tipografia/)
 
-<br/>
 <br/>
 Achou interessante o novo blog? Estou tentando sair do medium, então criei site aqui, porém ele ainda está numa fase de teste, passando por periodos turbulentos então se você tem alguma sugestão ou dica para essa pobre pessoa é só [me mandar um alo](mailto:bianca.rocha1711@gmail.com)!
 
