@@ -8,11 +8,15 @@
   }
   .article__title {
     font-family: $font-sans-serif;
+    font-weight: bold;
     font-size: 48px;
+    line-height: 1.2;
     margin-bottom: 5px;
   }
 
   .article__subtext {
+    font-family: $font-sans-serif;
+    font-weight: lighter;
     color: $darker-gray;
     font-size: 16px;
     margin-bottom: 0px;
@@ -52,7 +56,7 @@
     h6 {
       margin-top: 30px;
       margin-bottom: 30px;
-      font-weight: bold;
+      font-weight: 600;
     }
     h1 {
       font-size: 36px;
@@ -63,6 +67,29 @@
     h3 {
       font-size: 26px;
     }
+    strong {
+      font-weight: 600;
+    }
+    ul {
+      margin: 0px;
+    }
+    li {
+      margin-bottom: 15px;
+      p {
+        display: inline-block;
+      }
+      &::before {
+        content: '';
+        display: inline-block;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: $black;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
     img {
       display: block;
       margin: 0 auto;
@@ -71,12 +98,30 @@
       padding-bottom: 30px;
     }
     a {
-      text-decoration: underline;
       color: $black;
       transition: all ease-in 0.3s;
+      border-bottom: 1px solid $primary;
 
       &:hover {
+        text-decoration: none;
         color: $primary;
+      }
+    }
+    blockquote {
+      border-left: 3px solid $primary;
+      padding-left: 20px;
+      color: $black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
     }
   }

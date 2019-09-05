@@ -34,7 +34,7 @@ Vê como uma imagem, antes harmoniosa, agora te dá um senso de estranheza? Po
 
 **Aulas interessantes para você aprofundar o conteúdo:**
 
-[**- Origamid - Web Design Completo - Dicas**](https://www.origamid.com/curso/web-design-completo/2-1-6-dicas/ '- Origamid - Web Design Completo - Dicas')
+- [Origamid - Web Design Completo - Dicas](https://www.origamid.com/curso/web-design-completo/2-1-6-dicas/ '- Origamid - Web Design Completo - Dicas')
 
 # **Cores**
 
@@ -56,9 +56,9 @@ Como o Dribbble é um website de designers renomados, ele é o modo mais simpl
 
 **Aulas interessantes para você aprofundar o conteúdo:**
 
-- [**Origamid - Web Design Completo - Cores**](https://www.origamid.com/curso/web-design-completo/2-1-3-cores/)
-- [**Origamid - UI Design Avançado - Aulas 3.6 a 3.8**](https://www.origamid.com/curso/ui-design-avancado/3-6-paleta-de-cores/)
-- [**Meu texto aqui sobre cores**](https://rochabianca.github.io/blog/como-acertar-no-esquema-de-cor-um-guia-para-iniciantes/)
+- [Origamid - Web Design Completo - Cores](https://www.origamid.com/curso/web-design-completo/2-1-3-cores/)
+- [Origamid - UI Design Avançado - Aulas 3.6 a 3.8](https://www.origamid.com/curso/ui-design-avancado/3-6-paleta-de-cores/)
+- [Meu texto aqui sobre cores](https://rochabianca.github.io/blog/como-acertar-no-esquema-de-cor-um-guia-para-iniciantes/)
 
 # **Tipografia**
 
@@ -72,9 +72,9 @@ Dá uma olhada no título acima. Vê essas “perninhas” no “S”, “r�
 
 **Exemplos de Sites que usam tipografias serifadas:**
 
-- [**Parcel**](https://www.fromparcel.com/)
-- [**Medium**](https://medium.com/)
-- [**Access Ventures**](https://accessventures.org/)
+- [Parcel](https://www.fromparcel.com/)
+- [Medium](https://medium.com/)
+- [Access Ventures](https://accessventures.org/)
 
 ![](assets/posts/dicas-design-para-developers/asset-7.png)
 
@@ -82,36 +82,36 @@ Como você provavelmente já está pensando, são tipografias sem serifas. S
 
 **Exemplos de Sites que usam tipografias sem serifas:**
 
-- [**Google**](google.com)
-- [**Web Field Manual**](https://webfieldmanual.com/)
-- [**Wootten**](http://wootten.com.au/)
+- [Google](google.com)
+- [Web Field Manual](https://webfieldmanual.com/)
+- [Wootten](http://wootten.com.au/)
 
 ![](assets/posts/dicas-design-para-developers/asset-8.png)
 
 Vamos mais uma vez olhar o texto acima: percebe como parece algo feito a mão? Olha esse ligamento entre o “s” e o “c”, como se fosse alguém de fato escrevendo, fazendo esses ligamentos para não tirar a caneta do papel. Isso é uma das características das tipografias Script. ​**Costumam ser muito utilizadas em eventos**,**​** como Natal, Casamentos, Dia dos Namorados, etc. Porém,porseremtãoestilosasecheiasdeligamentos,**n**​ **ãosão indicadas para textos longos, mas para títulos, marcas e anúncios.** U**​** ma coisa importante na hora de utilizar uma script é: ​**Sempre tenha uma tipografia para “parear” com ela.** <br/>
 
-> ## **Nunca.**
+> ### Nunca.
 >
-> ## **Eu disse NUNCA**
+> ### Eu disse NUNCA
 >
-> ## **Use apenas uma tipografia script para um website inteiro**
+> ### Use apenas uma tipografia script para um website inteiro
 
 <br/>
 
 **Exemplos de Sites que usam tipografias script:**
 
-- [**Cortado**](https://cortadoscript.com/)
-- [**Clumpies Ice Cream**](https://www.clumpies.com/)
+- [Cortado](https://cortadoscript.com/)
+- [Clumpies Ice Cream](https://www.clumpies.com/)
 
 ![](assets/posts/dicas-design-para-developers/asset-9.png)
 
 Essa definitivamente vai ser a tipografia mais fácil de classificar: **é todo o resto**.**​** O que não é serifada, não é sem serifa, não é scriptédisplay.Assimcomoascript,**e**​ **lafoifeitaparatítulos, anúncios e marcas​** e, assim como a display:
 
-> ## **Você nunca.**
+> ### Você nunca.
 >
-> ## **NUNCA**
+> ### NUNCA.
 >
-> ## **Deve utilizar em corpo de texto!**
+> ### Deve utilizar em corpo de texto!
 
 <br/>
 Elas não tem boa leiturabilidade salvos casos muito raros, pois como dito anteriormente a tipografia display pode ser literalmente qualquer coisa. Mas, ​**na dúvida, utilize apenas em títulos, anúncios ou marcas e sempre tenha sua serifada ou não serifada para parear com ela.**
@@ -119,18 +119,18 @@ Elas não tem boa leiturabilidade salvos casos muito raros, pois como dito ante
 
 **Exemplos de Sites que usam tipografias display:**
 
-- [**Species in Pieces**](http://species-in-pieces.com/)
-- [**White Frontier**](http://whitefrontier.ch/)
+- [Species in Pieces](http://species-in-pieces.com/)
+- [White Frontier](http://whitefrontier.ch/)
 
 <br/>
 
 **Aulas interessantes para você aprofundar o conteúdo:**
 
-- [**Origamid - Tipografia Avançada - Todas as aulas gratuitas**](https://www.origamid.com/curso/tipografia-avancada/)
-- [**Origamid - Web Design Completo - Tipografia**](https://www.origamid.com/curso/web-design-completo/2-1-4-tipografia/)
+- [Origamid - Tipografia Avançada - Todas as aulas gratuitas](https://www.origamid.com/curso/tipografia-avancada/)
+- [Origamid - Web Design Completo - Tipografia](https://www.origamid.com/curso/web-design-completo/2-1-4-tipografia/)
 
 <br/>
 <br/>
-Achou interessante o novo blog? Estou tentando sair do medium, então criei site aqui, porém ele ainda está numa fase de teste, passando por periodos turbulentos então se você tem alguma sugestão ou dica para essa pobre pessoa que manja 0 de gatsby é só [me mandar um alo](mailto:bianca.rocha1711@gmail.com)!
+Achou interessante o novo blog? Estou tentando sair do medium, então criei site aqui, porém ele ainda está numa fase de teste, passando por periodos turbulentos então se você tem alguma sugestão ou dica para essa pobre pessoa é só [me mandar um alo](mailto:bianca.rocha1711@gmail.com)!
 
 Muito obrigada se você leu até aqui e espero que esse texto tenha sido útil para você de algum modo. Obrigada e até a próxima :D

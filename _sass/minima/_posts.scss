@@ -11,13 +11,15 @@
   }
 
   .post__title {
+    font-family: $font-sans-serif;
     font-size: 36px;
-    margin-bottom: 5px;
     color: $black;
     font-weight: bold;
   }
 
   .post__date {
+    font-family: $font-sans-serif;
+    font-weight: lighter;
     font-size: 16px;
     color: $gray;
   }

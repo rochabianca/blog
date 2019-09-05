@@ -26,7 +26,7 @@ Você não precisa ter medo de copiar um esquema de cor de quem sabe o que está
 
 ![Página inicial do Dribbble](assets/posts/como-acertar-no-esquema-de-cor/asset-2.png)
 
-[Dribbble](http://dribbble.com) é uma comunidade para designers compartilharem seu trabalho a partir de screenshots do mesmo. E uma coisa muito importante, que é o motivo pelo qual essa é a minha primeira indicação: Não é qualquer designer que pode postar seu trabalho lá. Aliais, você até pode, porém seu trabalho não será visto pelos usuários comuns até que alguém da comunidade veja e aprove, o que faz com que seja praticamente impossível encontrar um trabalho ruim de design lá.
+[Dribbble](http://dribbble.com){:target="\_blank"} é uma comunidade para designers compartilharem seu trabalho a partir de screenshots do mesmo. E uma coisa muito importante, que é o motivo pelo qual essa é a minha primeira indicação: Não é qualquer designer que pode postar seu trabalho lá. Aliais, você até pode, porém seu trabalho não será visto pelos usuários comuns até que alguém da comunidade veja e aprove, o que faz com que seja praticamente impossível encontrar um trabalho ruim de design lá.
 
 _“Mas o que isso tem a ver com encontrar um bom esquema de cor? “_ Você deve estar se perguntando. **Tudo** meu amigo, pois o Dribbble também tem uma feature maravilhosa, que você utilizará muito: Ele mostra o esquema de cor que foi usado nas artes postadas lá.
 
@@ -40,7 +40,7 @@ Você pode usar tanto o esquema de cor já dado no post, quanto pode clicar em u
 
 ![Imagens da coleção de Inverno do Design Seeds](assets/posts/como-acertar-no-esquema-de-cor/asset-5.png)
 
-Uma das coisas que aprendi enquanto estudava sobre cores é que não existe palheta mais harmônica que aquela da natureza, é dela que vem toda a inspiração do estudo de combinações de cores. E é isso que o site [Design Seeds](https://www.design-seeds.com/) mostra para a gente: as palhetas de cores da natureza e de elementos do nosso dia a dia. E, enquanto eu admita que não seja o primeiro site que procuro quando preciso de um esquema de cor rápido, é um site maravilhoso quando estou em busca de inspiração (ou só quero olhar umas paletas bonitas também, ninguém é de ferro).
+Uma das coisas que aprendi enquanto estudava sobre cores é que não existe palheta mais harmônica que aquela da natureza, é dela que vem toda a inspiração do estudo de combinações de cores. E é isso que o site [Design Seeds](https://www.design-seeds.com/){:target="\_blank"} mostra para a gente: as palhetas de cores da natureza e de elementos do nosso dia a dia. E, enquanto eu admita que não seja o primeiro site que procuro quando preciso de um esquema de cor rápido, é um site maravilhoso quando estou em busca de inspiração (ou só quero olhar umas paletas bonitas também, ninguém é de ferro).
 
 ## Dicas Gerais
 
@@ -54,10 +54,10 @@ Digamos que você achou um site muito, mas muito bonito e gostaria de usar ao me
 
 Uma coisa importante é não apenas se ater aos sites dados aqui, mas também buscar estudar sobre as cores, suas palhetas e seus usos, assim você poderá evoluir suas habilidades e criar os seus próprios esquemas de cores (Ainda farei um texto sobre isso, mas me falta estudar mais, então fica para a parte 2 desse daqui). E por isso eu vou recomendar algumas vídeo aulas que me ajudaram bastante (são todas gratuitas):
 
-[Origamid — Web Design Completo — Cores](https://www.origamid.com/curso/web-design-completo/2-1-3-cores)
+- [Origamid — Web Design Completo — Cores](https://www.origamid.com/curso/web-design-completo/2-1-3-cores){:target="\_blank"}
 
-[Origamid — UI Design Avançado — Cores em Interfaces: Aulas 3.6 a 3.8](https://www.origamid.com/curso/ui-design-avancado/3-6-paleta-de-cores)
+- [Origamid — UI Design Avançado — Cores em Interfaces: Aulas 3.6 a 3.8](https://www.origamid.com/curso/ui-design-avancado/3-6-paleta-de-cores){:target="\_blank"}
 
-[Origamid — Tipografia Avançada — Cores na Tipografia](https://www.origamid.com/curso/tipografia-avancada/2-5-cores-na-tipografia)
+- [Origamid — Tipografia Avançada — Cores na Tipografia](https://www.origamid.com/curso/tipografia-avancada/2-5-cores-na-tipografia){:target="\_blank"}
 
 Espero que esse texto possa auxiliar vocês a ter um pouco mais de facilidade na hora de escolher cores, se você curtiu bate umas palminhas que isso me incentiva demais a escrever mais textos. Creio que seja isso, até o próximo texto :D
