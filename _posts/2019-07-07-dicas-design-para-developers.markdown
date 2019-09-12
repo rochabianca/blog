@@ -1,16 +1,16 @@
 ---
 layout: article
 title: Dicas Básicas de Design para Developers
-description: Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front do Telegram (e que também passei ao tentar iniciar esta carreira) é… Por onde começar? Você vê todos aqueles sites maravilhosos…
-date: 2019-07-07T14:12:36.726Z
+description: Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front do Telegram
+  (e que também passei ao tentar iniciar esta carreira) é… Por onde começar? Você
+  vê todos aqueles sites maravilhosos…
+date: 2019-07-07T14:12:36.726+00:00
 tags:
-  - Front
-  - Front End Development
-  - Frontend
-  - Dicas
-  - Design
----
+- Frontend
+- Dicas
+- Design
 
+---
 ![](assets/posts/dicas-design-para-developers/asset-0.jpg)
 
 Olá! Nesse texto preparei um compilado de algumas dicas que podem te ajudar a criar layouts mais bonitos, mesmo sabendo pouco ou quase nada de design. Espero que seja útil :D
