@@ -17,5 +17,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- _posts/isso-é-um-teste.md
