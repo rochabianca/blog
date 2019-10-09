@@ -4,10 +4,11 @@ title: Um pouco de porquê esse blog existe
 date: 2019-10-08 09:31
 tags:
   - Happy Hour
-description:
+description: 'Uma história de como a ideia desse blog surgiu, seus motivos e suas dificuldades.'
+image: 'assets/posts/porque-esse-blog-existe/asset-1.jpg'
 ---
 
-![](assets/posts/como-fazer-este-blog/asset-1.jpg)
+![Um computador com um caderno e caneta a sua frente, ao lado uma caneca com chá e um vaso de flores](assets/posts/porque-esse-blog-existe/asset-1.jpg)
 
 Faz um tempinho que migrei para cá e admito que tem muita coisa que não sei ainda, ou que não faço direito. Por exemplo, eu estou criando esse texto na branch gh-pages, o que quer dizer que eu não posso commita-lo até terminar, e não posso mudar para a master porque não commitei nada (fora que nem sei como tá a master). Vivendo e aprendendo, não é mesmo?
 
