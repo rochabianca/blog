@@ -4,6 +4,21 @@
   color: $black;
   position: relative;
 
+  .article__chanel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    a {
+      color: $black;
+      transition: all ease-in 0.3s;
+      border-bottom: 1px solid $primary;
+      &:hover {
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+  }
+
   .article__back {
     font-family: $font-sans-serif;
     display: inline-block;
