@@ -9,9 +9,7 @@ tags:
   - Dicas
   - Cursos
 
-canonical_link: https://medium.com/@baiah/dicas-e-cursos-para-quem-est%C3%A1-iniciando-no-front-end-d2d492b583f4
-redirect_from:
-  - /dicas-e-cursos-para-quem-está-iniciando-no-front-end-d2d492b583f4
+image: 'assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg'
 ---
 
 ![](assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg)

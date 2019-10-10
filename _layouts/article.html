@@ -30,16 +30,37 @@ comments: true
       {{ content }}
     </div>
 
-    <div class="col-lg-8">
-      <a href="{{'/' | prepend: site.baseurl}}" class="article__link--back">
-        <i class="fas fa-angle-double-left article__back--icon"></i>
-        Ver mais posts
-      </a>
+    <div class="related col-lg-8">
+      <h3 class="related__title">Você também pode gostar</h3>
+      <ul class="related__list d-flex flex-wrap">
+        {% for post in site.related_posts limit:3 %}
+          <a class="related__item" href="{{ post.url | prepend: site.baseurl }}">
+              <li>
+              <img class="related__item__image" src="{{post.image}}" alt="Imagem do post {{post.title}}">
+              <div class="related__content">
+                <h3 class="related__item__title">{{ post.title  | truncate: 50}}</h3>
+                {{if post.description}}
+                <p class="related__item__text">
+                  {{ post.description | truncate: 100}}
+                </p>
+                {{ endif }}
+              </div>
+              </li>
+          </a>
+        {% endfor %}
+      </ul>
     </div>
 
     <div class="col-lg-8 article__chanel">
       Quer ficar sabendo quando houverem novos posts aqui no blog? Agora você pode! Basta se juntar ao <a href="https://t.me/rochabiancablognews" target="_blank">meu canal no telegram</a>.
     </div>
+
+    <!-- <div class="col-lg-8">
+      <a href="{{'/' | prepend: site.baseurl}}" class="article__link--back">
+        <i class="fas fa-angle-double-left article__back--icon"></i>
+        Voltar para a home
+      </a>
+    </div> -->
     <footer class="footer col-lg-8">
       <a class="footer__link" href="{{ '/' | prepend: site.baseurl }}">
         <div class="d-flex align-items-start align-items-lg-center">

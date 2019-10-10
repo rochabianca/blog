@@ -6,11 +6,12 @@ description: Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front d
   vê todos aqueles sites maravilhosos…
 date: 2019-07-07T14:12:36.726+00:00
 tags:
-- Frontend
-- Dicas
-- Design
-
+  - Frontend
+  - Dicas
+  - Design
+image: 'assets/posts/dicas-design-para-developers/asset-0.jpg'
 ---
+
 ![](assets/posts/dicas-design-para-developers/asset-0.jpg)
 
 Olá! Nesse texto preparei um compilado de algumas dicas que podem te ajudar a criar layouts mais bonitos, mesmo sabendo pouco ou quase nada de design. Espero que seja útil :D
