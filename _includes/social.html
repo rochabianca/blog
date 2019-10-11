@@ -2,7 +2,9 @@
   {%- if site.dribbble_username -%}
   <li>
     <a
+      rel="noopener"
       target="_blank"
+      aria-label="Meu perfil no dribbble"
       href="https://dribbble.com/{{ site.dribbble_username | cgi_escape | escape }}"
     >
       <i class="fab fa-dribbble social__icon"></i>
@@ -11,13 +13,23 @@
 
   {%- endif -%} {%- if site.github_username -%}
   <li>
-    <a target="_blank" href="https://github.com/{{ site.github_username | cgi_escape | escape }}">
+    <a
+      rel="noopener"
+      target="_blank"
+      aria-label="Meu perfil no github"
+      href="https://github.com/{{ site.github_username | cgi_escape | escape }}"
+    >
       <i class="fab fa-github social__icon"></i>
     </a>
   </li>
   {%- endif -%} {%- if site.linkedin -%}
   <li>
-    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin | cgi_escape | escape }}">
+    <a
+      rel="noopener"
+      target="_blank"
+      aria-label="Meu perfil no linkedin"
+      href="https://www.linkedin.com/in/{{ site.linkedin | cgi_escape | escape }}"
+    >
       <i class="fab fa-linkedin social__icon"></i>
     </a>
   </li>
@@ -29,7 +41,12 @@
   </li> -->
   {%- endif -%} {%- if site.email -%}
   <li>
-    <a target="_blank" href="mailto:{{ site.email | cgi_escape | escape }}">
+    <a
+      aria-label="clique aqui para me mandar um email"
+      rel="noopener"
+      target="_blank"
+      href="mailto:{{ site.email | cgi_escape | escape }}"
+    >
       <i class="fas fa-envelope social__icon"></i>
     </a>
   </li>
