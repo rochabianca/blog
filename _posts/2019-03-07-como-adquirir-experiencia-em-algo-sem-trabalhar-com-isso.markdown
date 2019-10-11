@@ -10,10 +10,10 @@ tags:
   - Desenvolvimento
   - Desenvolvimento Software
 
-image: 'assets/posts/como-adquirir-experiencia-em-algo-sem-trabalhar-com-isso/asset-1.jpeg'
+image: 'assets/posts/como-adquirir-experiencia-em-algo-sem-trabalhar-com-isso/asset-1.jpg'
 ---
 
-![Um desenvolvedor observando seu objeto de estudo, o código. — Foto tirada por [Charles](https://unsplash.com/@charlesdeluvio)](assets/posts/como-adquirir-experiencia-em-algo-sem-trabalhar-com-isso/asset-1.jpeg)
+![Um desenvolvedor observando seu objeto de estudo, o código. — Foto tirada por [Charles](https://unsplash.com/@charlesdeluvio)](assets/posts/como-adquirir-experiencia-em-algo-sem-trabalhar-com-isso/asset-1.jpg)
 
 Uma situação que muito preocupa os desenvolvedores mais novos, e as vezes até mais antigos, é quando você está em busca do famigerado primeiro emprego, ou buscando trabalhar com novas tecnologias, mudar de rumo, e se depara com um aparente paradoxo: a necessidade de experiência naquela tecnologia em específico. Afinal como eu vou ter experiência em uma tecnologia nova se preciso trabalhar com ela para ter experiência?
 
