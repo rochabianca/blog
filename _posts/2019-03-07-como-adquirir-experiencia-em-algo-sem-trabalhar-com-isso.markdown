@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Como adquirir experiência profissional em algo sem trabalhar com isso (ou a importância da prática)'
-description: 'Uma situação que muito preocupa os desenvolvedores mais novos, e as vezes até mais antigos, é quando você está em busca do famigerado primeiro emprego, ou buscando trabalhar com novas tecnologias…'
+description: 'Afinal como eu vou ter experiência em uma tecnologia nova se preciso trabalhar com ela para ter experiência?'
 date: '2019-03-07T14:48:49.946Z'
 tags:
   - Front End Development

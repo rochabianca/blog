@@ -9,7 +9,7 @@ tags:
   - Esquema De Cor
   - Paleta De Cores
 
-description: 'Uma das coisas que mais sofri quando iniciei no caminho para me tornar uma Frontend foi como raios escolher as cores certas para meu site/aplicativo/webapp?'
+description: 'como raios escolher as cores certas para meu site/aplicativo/webapp? Bom, esse texto está aqui para te ajudar nisso'
 image: 'assets/posts/como-acertar-no-esquema-de-cor/asset-1.jpeg'
 ---
 
