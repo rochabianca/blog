@@ -10,6 +10,7 @@ tags:
   - Cursos
 
 image: 'assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg'
+description: "Uma das coisas que eu mais vejo nos grupos de Front é 'por onde começar?' Você vê todos aqueles sites maravilhosos, cheios de animações, efeitos, cores e não faz a mínima ideia de como repetir tais feitos. Bom, eu estou aqui para tentar te ajudar nesse caminho!"
 ---
 
 ![](assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg)
@@ -18,7 +19,7 @@ Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front do Telegram (e
 
 <!--more-->
 
-Bom, se você assim como eu não tinha IDEIA de onde começar, recomendo dar uma olhada nos Developer Roadmaps. Vou deixar um link para o de frontend de 2018 [aqui](https://github.com/kamranahmedse/developer-roadmap/blob/master/images/frontend.png) mas talvez você encontre um mais atual se for atrás. Ele é bem intuitivo e te da uma boa ideia do que começar a estudar.
+Bom, se você assim como eu não tinha IDEIA de onde começar, recomendo dar uma olhada nos Developer Roadmaps. Vou deixar um link para o de frontend de 2018 [aqui](https://github.com/kamranahmedse/developer-roadmap/blob/master/images/frontend.png){:target="\_blank"} mas talvez você encontre um mais atual se for atrás. Ele é bem intuitivo e te da uma boa ideia do que começar a estudar.
 
 ### A Base: HTML, CSS e JS
 
@@ -26,7 +27,7 @@ Uma coisa que creio eu que nunca vai mudar na carreira Frontend é justamente su
 
 ### E o jQuery?
 
-E o jQuery, vale a pena aprende-lo ainda? É uma boa pergunta, que honestamente eu ainda não sei como responder. Muitos sites como o [FreeCodeCamp](https://learn.freecodecamp.org/) tem removido o jQuery como essencial para a base, mas conheço muitas empresas como a [Enjoei](https://www.enjoei.com.br/) e a [Gocase](https://www.gocase.com.br/) que usam ou chegaram a usar o jQuery como base, então acho que esse quesito vai da escolha de cada um.
+E o jQuery, vale a pena aprende-lo ainda? É uma boa pergunta, que honestamente eu ainda não sei como responder. Muitos sites como o [FreeCodeCamp](https://learn.freecodecamp.org/){:target="\_blank"} tem removido o jQuery como essencial para a base, mas conheço muitas empresas como a [Enjoei](https://www.enjoei.com.br/){:target="\_blank"} e a [Gocase](https://www.gocase.com.br/){:target="\_blank"} que usam ou chegaram a usar o jQuery como base, então acho que esse quesito vai da escolha de cada um.
 
 ### React, Angular ou Vue, qual o melhor?
 
@@ -42,11 +43,11 @@ Agora estamos entrando na parte mais nebulosa desse texto: como escolher um bom 
 
 Se você está iniciando na área, mais do que tecnicidade do que é uma div e uma section, você vai precisar de boas referências. Acredite, mais importante do que se ta tudo correto semanticamente, ou se todos os estilos estão sendo usados direitos, é se o resultado final está **bonito**. Então se o curso trata de coisas como teoria das cores, espaçamento entre itens, separadores e etc, há grandes changes de ele ser um bom curso para se começar.
 
-Um curso que eu recomendo pacas que aborda esses conteúdos: [O curso de Web Design Completo da Origamid](https://www.origamid.com/curso/web-design-completo/)
+Um curso que eu recomendo pacas que aborda esses conteúdos: [O curso de Web Design Completo da Origamid](https://www.origamid.com/curso/web-design-completo/){:target="\_blank"}
 
 #### Cursos na Udemy, como escolher?
 
-A [Udemy](https://www.udemy.com/) é um grande site de cursos, famosa por seus descontos, e possui uma variedade imensa de cursos de todos os tipos e para todos os públicos. Mas nesse meio, como escolher o melhor curso da área? Como evitar gastar milhares de reais em cursos para deixar todos no canto? Bom, a resposta vai de cada um, mas o que funcionou _pra mim_ foi:
+A [Udemy](https://www.udemy.com/){:target="\_blank"} é um grande site de cursos, famosa por seus descontos, e possui uma variedade imensa de cursos de todos os tipos e para todos os públicos. Mas nesse meio, como escolher o melhor curso da área? Como evitar gastar milhares de reais em cursos para deixar todos no canto? Bom, a resposta vai de cada um, mas o que funcionou _pra mim_ foi:
 
 #### Olhe a duração do curso
 
@@ -66,28 +67,32 @@ Infelizmente o mercado não vive de CRUD. Então é bom verificar se aquele curs
 
 Esse é definitivamente meu site de cursos favoritos. O André Rafael manja MUITO e sabe ensinar bem demais, além de ter projetos muito bonitos (ele iniciou a carreira como designer se eu não me engano). Portanto, se você tem um dinheirinho, vale a pena **demais** pegar esse pacote de cursos. No momento desse texto, os planos são por período de tempo, sendo o mensal por R$ 100 e o anual por R$ 384. Não, não é a coisa mais barata do mundo, mas se você tem um dinheirinho para investir, vai valer a pena.
 
-Pode acessar o site da Origamid [aqui](https://www.origamid.com/).
+Pode acessar o site da Origamid [aqui](https://www.origamid.com/){:target="\_blank"}.
 
 ### FreeCodeCamp
 
-Admito aqui que fiz poucos cursos deles, porém gostei bastante dos que fiz lá. Acho que ele “pega menos na sua mão” que a [codecademy](https://www.codecademy.com/pt-BR), tratando assuntos um pouco mais complexos e tem uma parte só para você fazer projetos e praticar, acho uma excelente opção gratuita.
+Admito aqui que fiz poucos cursos deles, porém gostei bastante dos que fiz lá. Acho que ele “pega menos na sua mão” que a [codecademy](https://www.codecademy.com/pt-BR){:target="\_blank"}, tratando assuntos um pouco mais complexos e tem uma parte só para você fazer projetos e praticar, acho uma excelente opção gratuita.
 
-Você pode acessar o site da FreeCodeCamp [aqui](https://learn.freecodecamp.org/).
+Você pode acessar o site da FreeCodeCamp [aqui](https://learn.freecodecamp.org/){:target="\_blank"}.
 
 ### Udemy
 
 Obviamente, não poderia faltar a plataforma que melhor trás a tona a expressão “o gerente ficou maluco”. Mas como é uma plataforma imensa e cheia de cursos de todas as formas e cores, vou deixar aqui alguns que fiz e gostei:
 
-[React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/learn/v4/overview) (este até o momento é o curso que mais gostei, portanto recomendo se você tiver interesse)
+[React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/learn/v4/overview){:target="\_blank"} (este até o momento é o curso que mais gostei, portanto recomendo se você tiver interesse)
 
-[React Front To Back](https://www.udemy.com/react-front-to-back/learn/v4/content)
+[React Front To Back](https://www.udemy.com/react-front-to-back/learn/v4/content){:target="\_blank"}
 
-[Professional Rails Code Along](https://www.udemy.com/professional-ruby-on-rails-coding-course/) (esse é um curso mais de back, não foca nada em design, mas continua sendo muito bom)
+[Professional Rails Code Along](https://www.udemy.com/professional-ruby-on-rails-coding-course/){:target="\_blank"} (esse é um curso mais de back, não foca nada em design, mas continua sendo muito bom)
 
-[Build Web Apps with Vue JS 2 & Firebase](https://www.udemy.com/build-web-apps-with-vuejs-firebase/)
+[Build Web Apps with Vue JS 2 & Firebase](https://www.udemy.com/build-web-apps-with-vuejs-firebase/){:target="\_blank"}
 
-[Curso Completo de jQuery + 10 Projetos Práticos](https://www.udemy.com/jquery-completo/)
+[Curso Completo de jQuery + 10 Projetos Práticos](https://www.udemy.com/jquery-completo/){:target="\_blank"}
 
+<br/>
+**Update:** Criei um repositório com um guia dos bons cursos da internet, tanto gratuitos quanto pagos, você pode dar uma olhada [clicando aqui](https://github.com/rochabianca/the-great-courses-of-the-Internet){:target="\_blank"}. E se quiser sugerir novos cursos também, toda contribuição é bem vinda :D
+
+<br/>
 Acho que é isso meu povo, esse texto ficou bem, mas BEM mais longo do que eu esperava, mas espero ter dado uma luz para vocês no meio do caminho.
 
 Muito obrigada se você leu até aqui, você é um guerreirinho ❤

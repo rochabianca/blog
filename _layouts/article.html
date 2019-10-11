@@ -39,11 +39,11 @@ comments: true
               <img class="related__item__image" src="{{post.image}}" alt="Imagem do post {{post.title}}">
               <div class="related__content">
                 <h3 class="related__item__title">{{ post.title  | truncate: 50}}</h3>
-                {{if post.description}}
+                {% if post.description %}
                 <p class="related__item__text">
                   {{ post.description | truncate: 100}}
                 </p>
-                {{ endif }}
+                {% endif %}
               </div>
               </li>
           </a>
