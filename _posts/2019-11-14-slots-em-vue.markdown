@@ -29,11 +29,11 @@ Parece um problema simples, mas o componente em si tinha muitas instâncias, que
 Acelera para mais ou menos um mês depois disso e , enquanto investigava o código para fazer alguma outra tarefa e me deparei com um negócio meio esquisito:
 
 ```
-<componente-que-claramente-era-nosso>
-    <h1>Vários html</h1>
-    <p>Uns texto muito loco</p>
-    <p>etc</p>
-</componente-que-claramente-era-nosso>
+  <componente-que-claramente-era-nosso>
+      <h1>Vários html</h1>
+      <p>Uns texto muito loco</p>
+      <p>etc</p>
+  </componente-que-claramente-era-nosso>
 ```
 
 Eu olhei para aquilo e fiquei ** ue????** e resolvi dar uma investigada no ComponenteQueClaramenteEraNosso. Foi aí que eu vi.
@@ -42,6 +42,7 @@ Eu olhei para aquilo e fiquei ** ue????** e resolvi dar uma investigada no Compo
 
 ```
 /* ComponenteQueClaramenteEraNosso.vue */
+
 <template>
     <section>
         <!-- vários blocos de código -->
@@ -50,7 +51,7 @@ Eu olhei para aquilo e fiquei ** ue????** e resolvi dar uma investigada no Compo
 </template>
 ```
 
-// Fim historinha
+<span class="article__muted">// Fim historinha</span>
 
 <br/>
 
@@ -131,7 +132,8 @@ E pronto, caso nenhum texto seja colocado ele vai automaticamente por o conteúd
 <template>
     <div>
         <send-form></send-form> <!-- um botão de submit com o texto enviar -->
-        <send-form>Outro texto</send-form> <!-- o mesmo botão acima, mas agora com "Outro Texto" como texto -->
+        <send-form>Outro texto</send-form> <!-- o mesmo botão acima, mas agora
+        com "Outro Texto" como texto -->
     </div>
 </template>
 ```
@@ -144,21 +146,21 @@ Imagine que você está criando um componente de modal e gostaria que ele fosse 
 /* Modal.vue */
 
 <template>
-    <div>
-       <div class="container">
-            <header>
-                <slot name="header"></slot>
-            </header>
+  <div>
+    <div class="container">
+      <header>
+        <slot name="header"></slot>
+      </header>
 
-            <main>
-                <slot></slot>
-            </main>
+      <main>
+        <slot></slot>
+      </main>
 
-            <footer>
-                 <slot name="footer"></slot>
-            </footer>
-        </div>
+      <footer>
+        <slot name="footer"></slot>
+      </footer>
     </div>
+  </div>
 </template>
 ```
 
@@ -168,27 +170,25 @@ E como adicionar o conteúdo a esses slots específicos? Você pode fazer isso u
 
 ```
 <modal>
+  <template v-slot:header>
+      <h1>Aqui pode estar um título do modal</h1>
+  </template>
 
-    <template v-slot:header>
-        <h1>Aqui pode estar um título do modal</h1>
-    </template>
+  <p>Aqui temos o conteúdo.</p>
+  <p>Não é necessário criar um template com v-slot:default para ele
+  pois qualquer conteúdo não envolvido em um '<template>' usando
+  v-slot é considerado como sendo o slot default.</p>
 
-    <p>Aqui temos o conteúdo.</p>
-    <p>Não é necessário criar um template com v-slot:default para ele
-    pois qualquer conteúdo não envolvido em um '<template>' usando
-    v-slot é considerado como sendo o slot default.</p>
+  <small>
+  Mas nada te impede de criar um template com v-slot:default,
+  inclusive funciona também
+  </small>
 
-    <small>
-    Mas nada te impede de criar um template com v-slot:default,
-    inclusive funciona também
-    </small>
-
-    <template v-slot:footer>
-        <p>Aqui temos uma chamada e alguns botões</p>
-        <button>Cancelar</button>
-        <button>OK</button>
-    </template>
-
+  <template v-slot:footer>
+      <p>Aqui temos uma chamada e alguns botões</p>
+      <button>Cancelar</button>
+      <button>OK</button>
+  </template>
 </modal>
 ```
 
@@ -196,31 +196,31 @@ E por fim, o html renderizado desse componente ficará assim:
 
 ```
 <div>
-   <div class="container">
-        <header>
-            <h1>Aqui pode estar um título do modal</h1>
-        </header>
+  <div class="container">
+    <header>
+      <h1>Aqui pode estar um título do modal</h1>
+    </header>
 
-        <main>
-           <p>Aqui temos o conteúdo.</p>
-           <p>
-            Não é necessário criar um template com v-slot:default para ele
-            pois qualquer conteúdo não envolvido em um '<template>' usando
-            v-slot é considerado como sendo o slot default.
-           </p>
+    <main>
+      <p>Aqui temos o conteúdo.</p>
+      <p>
+      Não é necessário criar um template com v-slot:default para ele
+      pois qualquer conteúdo não envolvido em um '<template>' usando
+      v-slot é considerado como sendo o slot default.
+      </p>
 
-           <small>
-            Mas nada te impede de criar um template com v-slot:default,
-            inclusive funciona também
-           </small>
-        </main>
+      <small>
+      Mas nada te impede de criar um template com v-slot:default,
+      inclusive funciona também
+      </small>
+    </main>
 
-        <footer>
-            <p>Aqui temos uma chamada e alguns botões</p>
-            <button>Cancelar</button>
-            <button>OK</button>
-        </footer>
-    </div>
+    <footer>
+      <p>Aqui temos uma chamada e alguns botões</p>
+      <button>Cancelar</button>
+      <button>OK</button>
+    </footer>
+  </div>
 </div>
 ```
 

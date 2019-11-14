@@ -76,7 +76,7 @@
       transition: all ease-in 0.3s;
     }
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       width: 5px;
       height: 5px;
@@ -127,7 +127,7 @@
         display: inline-block;
       }
       &::before {
-        content: '';
+        content: "";
         display: inline-block;
         height: 4px;
         width: 4px;
@@ -221,6 +221,9 @@
         padding-top: 15px;
         padding-bottom: 15px;
       }
+      .article__muted {
+        color: $gray;
+      }
       blockquote {
         border-left: 3px solid $primary;
         padding-left: 20px;
@@ -240,4 +243,10 @@
       }
     }
   }
+}
+.highlighter-rouge .highlight {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 30px 0;
 }
