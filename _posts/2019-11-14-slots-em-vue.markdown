@@ -4,6 +4,7 @@ title: Slots em Vue - Como eles podem mudar (para melhor) seu modo de programar
 date: 2019-11-14 09:56
 tags:
   - Vue js
+  - Slots
 description: "Uma história de como a ideia desse blog surgiu, seus motivos e suas dificuldades."
 image: "assets/posts/slots-em-vue/asset-1.jpg"
 ---
@@ -11,7 +12,6 @@ image: "assets/posts/slots-em-vue/asset-1.jpg"
 ![um monitor com várias linhas de código](assets/posts/slots-em-vue/asset-1.jpg)
 
 Para quem não sabe, quando entrei na minha atual empresa, a Beliive, eu pouco ou nada sabia sobre Vue js, que é o framework utilizado na empresa. Minhas informações sobre ele podiam ser resumidas em:
-<br/>
 <br/>
 
 - É um dos 3 grandes frameworks, junto com React e Angular
@@ -41,7 +41,7 @@ Eu olhei para aquilo e fiquei ** ue????** e resolvi dar uma investigada no Compo
 ˜pausa dramática˜
 
 ```
-/* ComponenteQueClaramenteEraNosso.vue */
+<!-- ComponenteQueClaramenteEraNosso.vue -->
 
 <template>
     <section>
@@ -66,7 +66,7 @@ O que isso quer dizer na prática? Que usando slots, você pode inserir um conte
   Conteúdo totalmente personalizado e modificável
 </navigation-link>
 
-/* NavigationLink.vue */
+<!-- NavigationLink.vue -->
 
 <template>
     <a
@@ -103,7 +103,7 @@ Outras coisas que você pode fazer com slots:
 Conteúdo de fallback nada mais é do que um conteúdo que será exibido caso nenhum seja, por exemplo, temos aqui um componente que é um botão que enviará um formulário:
 
 ```
-// SendForm.vue
+<!-- SendForm.vue -->
 
 <template>
     <button type="submit">
@@ -115,7 +115,7 @@ Conteúdo de fallback nada mais é do que um conteúdo que será exibido caso ne
 Podemos colocar qualquer texto dentro desse slot, mas vamos ser realistas, 99,9% das vezes o texto será um "Enviar".  Temos que colocar então em todo canto um enviar? Temos que criar uma prop para texto e, caso não tenha, colocar o texto enviar? Não, pois o Vue pensou nisso. Tudo que precisamos fazer é:
 
 ```
-// SendForm.vue
+<!-- SendForm.vue -->
 
 <template>
     <button type="submit">
@@ -127,7 +127,7 @@ Podemos colocar qualquer texto dentro desse slot, mas vamos ser realistas, 99,9%
 E pronto, caso nenhum texto seja colocado ele vai automaticamente por o conteúdo de fallback, que é o "Enviar":
 
 ```
-// UmOutroComponenteQualquer.vue
+<!-- UmOutroComponenteQualquer.vue -->
 
 <template>
     <div>
@@ -143,7 +143,7 @@ E pronto, caso nenhum texto seja colocado ele vai automaticamente por o conteúd
 Imagine que você está criando um componente de modal e gostaria que ele fosse completamente personalizado com slots. Mas você também quer manter as coisas organizadas, além de definir um estilo padrão para o header, conteúdo e footer do seu modal. Bom, com slots **você pode**! Foi para isso que foi criado um atributo especial chamado `name` que pode ser usado para definir slots adicionais:
 
 ```
-/* Modal.vue */
+<!-- Modal.vue -->
 
 <template>
   <div>

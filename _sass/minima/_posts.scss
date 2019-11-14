@@ -40,6 +40,26 @@
       display: block;
       margin: 0 auto;
     }
+    ul {
+      margin: 10px;
+    }
+    li {
+      margin-bottom: 15px;
+      color: $darker-gray;
+      p {
+        display: inline-block;
+      }
+      &::before {
+        content: "";
+        display: inline-block;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: $black;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
   }
 
   @media (max-width: 768px) {

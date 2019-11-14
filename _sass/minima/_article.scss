@@ -137,6 +137,9 @@
         margin-right: 10px;
       }
     }
+    span.article__muted {
+      color: $darker-gray;
+    }
     img {
       display: block;
       margin: 0 auto;
@@ -174,6 +177,30 @@
     }
     small {
       color: $darker-gray;
+    }
+    .hljs {
+      background: #f2f2fd;
+      color: #0c080b;
+    }
+    .hljs-tag,
+    .hljs-name,
+    .hljs-attribute {
+      color: #4d12a1;
+    }
+    .hljs-string,
+    .hljs-doctag {
+      color: #cd50af;
+    }
+    .hljs-number,
+    .hljs-literal,
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-tag .hljs-attr {
+      color: #5eb59a;
+    }
+    .hljs-comment,
+    .hljs-quote {
+      color: #9c92aa;
     }
   }
   // mobile
