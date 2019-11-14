@@ -24,13 +24,17 @@ email: bianca.rocha1711@gmail.com
 description: 'Desenvolvedora Frontend, apaixonada por design'
 baseurl: '/blog' # the subpath of your site, e.g. /blog
 url: 'https://rochabianca.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+
+# this section is used to show your social links on the sidebar
 github_username: rochabianca
 dribbble_username: baiah
 behance_username: Rochabianca
 linkedin: bianca-rocha-0a6794100
 medium: baiah
-disqus-shortname: rochabianca-blog
-excerpt_separator: <!--more-->
+
+
+disqus-shortname: rochabianca-blog # this is the disqus id of your website, so it can show up the comments section and you can moderate there.
+excerpt_separator: <!--more--> # This is here to define where the text intro that shows up on the home page should go.
 # Build settings
 theme: minima
 permalink: /:title
