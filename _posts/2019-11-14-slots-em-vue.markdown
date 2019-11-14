@@ -5,7 +5,7 @@ date: 2019-11-14 09:56
 tags:
   - Vue js
   - Slots
-description: "Uma história de como a ideia desse blog surgiu, seus motivos e suas dificuldades."
+description: "Um pouco sobre um dos elementos mais úteis e versáteis do Vuejs"
 image: "assets/posts/slots-em-vue/asset-1.jpg"
 ---
 
