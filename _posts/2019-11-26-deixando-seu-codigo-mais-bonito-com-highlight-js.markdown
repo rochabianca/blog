@@ -6,7 +6,7 @@ tags:
   - Highlight.js
   - Utilidades
   - Tutoriais
-description: "Um pouco sobre um dos elementos mais úteis e versáteis do Vuejs"
+description: "Tenho adotado uma maneira bem prática para ir adicionando as novas funções neste blog: o famigerado "quando eu precisar eu vejo" o que funciona bastante para evitar ter dor de cabeça antes da hora, mas infelizmente também quer dizer que eu vou ter que sair implementando coisa antes de fazer um post"
 image: "assets/posts/highlight-js/asset-1.jpg"
 ---
 
