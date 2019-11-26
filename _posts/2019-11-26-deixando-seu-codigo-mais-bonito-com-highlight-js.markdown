@@ -16,11 +16,11 @@ Tenho adotado uma maneira bem prática para ir adicionando as novas funções ne
 
 <!--more-->
 
-Até então eu nunca tinha mexido com esse tipo de tag e achei que era automático o highlight dos códigos (pouco inocente eu), o que obviamente não era o caso. Como estava olhando a documentação do vue na hora e eles tinham uma tag code muito bonitinha, fui lá inspecionar pra ver qual era. Então achei essas tags aqui:
+Até então eu nunca tinha mexido com esse tipo de tag e achei que era automático o highlight dos códigos, o que obviamente não era o caso. Como estava olhando a documentação do vue na hora e eles tinham uma tag code muito bonitinha, fui lá inspecionar pra ver qual era. Então achei essas tags aqui:
 
 ![print da documentação do Vue js sobre a parte de slots, com a aba inspencionar aberta, mostrando o código da tag 'code' e suas classes](assets/posts/highlight-js/asset-2.png)
 
-Uma rápida pesquisa no google por esse hljs me deu o nome do que eles estavam usando: uma lib chamada Highlight.js. E pesquisando mais um pouco eu descobri que ela é muito simples de usar, como vou explicar agora
+Uma rápida pesquisa no google por esse hljs me deu o nome do que eles estavam usando: uma lib chamada Highlight.js. E pesquisando mais um pouco eu descobri que ela é muito simples de usar, como irei explicar agora.
 
 ## Usando o Highlight.js
 
@@ -43,7 +43,7 @@ E, essencialmente é isso, você já pode ter uma tag code funcional com o estil
 
 ## Mas e se eu quiser um estilo personalizado?
 
-Se você é como eu e não conseguiu se dar por satisfeito com os mais de 150 temas disponíveis calma, você não está sozinho. Nesse caso, você pode alterar o css das tags, fazendo um estilo personalizado. Aqui estão as classes que eu alterei para fazer esse estilo aqui:
+Se você é como eu e não conseguiu se dar por satisfeito com os mais de 150 temas disponíveis calma, que temos solução pra isso também. Nesse caso, você pode alterar o css das tags, fazendo um estilo personalizado. Aqui estão as classes que eu alterei para fazer esse estilo aqui:
 
 ```
 .hljs {
