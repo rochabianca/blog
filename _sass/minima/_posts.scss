@@ -29,6 +29,12 @@
     max-width: 800px;
     font-family: $font-serif;
     line-height: 1.5;
+    a {
+      color: $darker-gray;
+      &:hover {
+        text-decoration: none;
+      }
+    }
     p {
       color: $darker-gray;
       font-size: 17px;

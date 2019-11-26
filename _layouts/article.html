@@ -2,9 +2,9 @@
 layout: default
 comments: true
 ---
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css">
 <article class="article container" itemscope itemtype="http://schema.org/BlogPosting">
-  <a class="article__back" href="{{ '/' | prepend: site.baseurl }}">
+  <a class="article__back" href="{{ '/' | prepend: site.baseurl }}" target="_self">
     <i class="fas fa-angle-double-left article__back--icon"></i>
     Página Inicial
   </a>
@@ -14,7 +14,7 @@ comments: true
 
       <p class="post-meta article__subtext">
         <span class="article__author">
-          Escrito por: <a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+          Escrito por: <a href="{{ '/' | prepend: site.baseurl }}" target="_self">{{ site.title }}</a>
         </span>
         <time
           class="article__date"
@@ -34,7 +34,7 @@ comments: true
       <h3 class="related__title">Você também pode gostar</h3>
       <ul class="related__list d-flex flex-wrap">
         {% for post in site.related_posts limit:3 %}
-          <a class="related__item" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="related__item" target="_self" href="{{ post.url | prepend: site.baseurl }}">
               <li>
               <img class="related__item__image" src="{{post.image}}" alt="Imagem do post {{post.title}}">
               <div class="related__content">
@@ -62,7 +62,7 @@ comments: true
       </a>
     </div> -->
     <footer class="footer col-lg-8">
-      <a class="footer__link" href="{{ '/' | prepend: site.baseurl }}">
+      <a class="footer__link" target="_self" href="{{ '/' | prepend: site.baseurl }}">
         <div class="d-flex align-items-start align-items-lg-center">
           <img src="assets/images/profile.jpg" class="footer__picture" alt="Foto de Bianca" />
           <div class="footer__text">
@@ -75,7 +75,6 @@ comments: true
     </footer>
     {%- if site.disqus-shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
   </div>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </article>
