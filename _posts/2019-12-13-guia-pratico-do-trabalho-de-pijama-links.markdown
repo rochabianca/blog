@@ -15,33 +15,33 @@ Para quem não sabe, dia 14 de dezembro eu fiz/vou fazer uma palestra sobre trab
 
 <!--more-->
 
-Primeiramente, [você pode encontrar os slides aqui](https://slides.com/baiah/guia-pratico-do-trabalho-de-pijama/)
+Primeiramente, [você pode encontrar os slides aqui](https://slides.com/baiah/guia-pratico-do-trabalho-de-pijama/){:target="\_blank"}
 
 ## Onde posso procurar trabalho remoto?
 
-- [Frontend BR Vagas (com filtro para remoto)](https://github.com/frontendbr/vagas/issues?q=is%3Aissue+is%3Aopen+label%3ARemoto)
-- [Remote Jobs Brasil](github.com/lerrua/remote-jobs-brazil)
-- [React Brasil Vagas](https://github.com/react-brasil/vagas)
-- [Vue js BR Vagas](github.com/vuejs-br/vagas)
-- [Remote](https://github.com/alinebastos/remote)
+- [Frontend BR Vagas (com filtro para remoto)](https://github.com/frontendbr/vagas/issues?q=is%3Aissue+is%3Aopen+label%3ARemoto){:target="\_blank"}
+- [Remote Jobs Brasil](github.com/lerrua/remote-jobs-brazil){:target="\_blank"}
+- [React Brasil Vagas](https://github.com/react-brasil/vagas){:target="\_blank"}
+- [Vue js BR Vagas](github.com/vuejs-br/vagas){:target="\_blank"}
+- [Remote](https://github.com/alinebastos/remote){:target="\_blank"}
 
 ## Apps para controle de tempo
 
 **Rescue Time**
 
-- [Desktop (Windows/Mac/Linux)](www.rescuetime.com/download-rescuetime)
-- [Mobile (iOS/Android)](https://www.rescuetime.com/mobile)
+- [Desktop (Windows/Mac/Linux)](www.rescuetime.com/download-rescuetime){:target="\_blank"}
+- [Mobile (iOS/Android)](https://www.rescuetime.com/mobile){:target="\_blank"}
 
 <br/>
 
 **Be Focused**
 
-- [Desktop (Mac)](apps.apple.com/br/app/be-focused-focus-timer/id973134470?l=en&mt=12)
-- [App Store](https://apps.apple.com/br/app/be-focused-focus-timer/id973130201)
-- [Play Store](https://play.google.com/store/apps/details?id=com.superelement.pomodoro&hl=pt_BR)
+- [Desktop (Mac)](apps.apple.com/br/app/be-focused-focus-timer/id973134470?l=en&mt=12){:target="\_blank"}
+- [App Store](https://apps.apple.com/br/app/be-focused-focus-timer/id973130201){:target="\_blank"}
+- [Play Store](https://play.google.com/store/apps/details?id=com.superelement.pomodoro&hl=pt_BR){:target="\_blank"}
 
 <br/>
 
-E um extra, você pode usar [esse site aqui para testar seu microfone](https://webcammictest.com/check-microphone.html). Ele é na web e não precisa de nada previamente instalado.
+E um extra, você pode usar [esse site aqui para testar seu microfone](https://webcammictest.com/check-microphone.html){:target="\_blank"}. Ele é na web e não precisa de nada previamente instalado.
 
 E aí, curtiram a palestra?

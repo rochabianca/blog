@@ -11,7 +11,7 @@ image: "assets/posts/vou-palestrar-e-gostaria-da-sua-ajuda/asset-1.jpeg"
 
 ![](assets/posts/vou-palestrar-e-gostaria-da-sua-ajuda/asset-1.jpeg)
 
-Vou fazer minha primeira palestra e, como é de praxe, já estou me tremendo toda. [Você pode ter mais informações sobre a palestra aqui](https://www.eventbrite.com.br/e/09-meetup-front-end-ce-tickets-83260407119) mas o que eu gostaria de fato com esse texto é da ajuda de vocês.
+Vou fazer minha primeira palestra e, como é de praxe, já estou me tremendo toda. [Você pode ter mais informações sobre a palestra aqui](https://www.eventbrite.com.br/e/09-meetup-front-end-ce-tickets-83260407119){:target="\_blank"} mas o que eu gostaria de fato com esse texto é da ajuda de vocês.
 
 <!--more-->
 
