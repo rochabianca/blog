@@ -13,7 +13,7 @@ description: 'como raios escolher as cores certas para meu site/aplicativo/webap
 image: 'assets/posts/como-acertar-no-esquema-de-cor/asset-1.jpg'
 ---
 
-![Foto de [Sharon Pittaway](https://unsplash.com/photos/iMdsjoiftZo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) no [Unsplash](https://unsplash.com/search/photos/color?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](assets/posts/como-acertar-no-esquema-de-cor/asset-1.jpg)
+![Foto de [Sharon Pittaway](https://unsplash.com/photos/iMdsjoiftZo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) no [Unsplash](https://unsplash.com/search/photos/color?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)]({{ site.baseurl }}/assets/posts/como-acertar-no-esquema-de-cor/asset-1.jpg)
 
 Uma das coisas que mais sofri quando iniciei no caminho para me tornar uma Frontend foi como raios escolher as cores certas para meu site/aplicativo/webapp?\_
 

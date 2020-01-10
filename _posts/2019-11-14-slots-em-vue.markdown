@@ -9,7 +9,7 @@ description: "Um pouco sobre um dos elementos mais úteis e versáteis do Vuejs"
 image: "assets/posts/slots-em-vue/asset-1.jpg"
 ---
 
-![um monitor com várias linhas de código](assets/posts/slots-em-vue/asset-1.jpg)
+![um monitor com várias linhas de código]({{ site.baseurl }}/assets/posts/slots-em-vue/asset-1.jpg)
 
 Para quem não sabe, quando entrei na minha atual empresa, a Beliive, eu pouco ou nada sabia sobre Vue js, que é o framework utilizado na empresa. Minhas informações sobre ele podiam ser resumidas em:
 <br/>

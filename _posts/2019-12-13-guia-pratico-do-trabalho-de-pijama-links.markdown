@@ -9,7 +9,7 @@ description: "Para quem não sabe, dia 14/12 eu fiz uma palestra sobre trabalho 
 image: "assets/posts/guia-pratico-do-trabalho-de-pijama-links/assets-1.jpg"
 ---
 
-![aqui vai ter uma foto da palestra, mas por enquanto é só um microfone com o fundo desfocado](assets/posts/guia-pratico-do-trabalho-de-pijama-links/assets-1.jpg)
+![aqui vai ter uma foto da palestra, mas por enquanto é só um microfone com o fundo desfocado]({{ site.baseurl }}/assets/posts/guia-pratico-do-trabalho-de-pijama-links/assets-1.jpg)
 
 Para quem não sabe, dia 14 de dezembro eu fiz/vou fazer uma palestra sobre trabalho remoto. Estou usando essa postagem para reunir alguns dos links principais usados na palestra.
 

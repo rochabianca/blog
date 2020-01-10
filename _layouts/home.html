@@ -4,7 +4,7 @@ layout: default
 
 <div class="sidebar">
   <div class="sidebar__content">
-    <img src="assets/images/profile.jpg" class="sidebar__picture" alt="Foto de Bianca" />
+    <img src="{{ site.baseurl }}/assets/images/profile.jpg" class="sidebar__picture" alt="Foto de Bianca" />
     <div class="sidebar__text">
       <h1 class="sidebar__title">{{ site.title }}</h1>
       {%- include social.html -%}
@@ -12,21 +12,52 @@ layout: default
     </div>
   </div>
 </div>
+<div class="sidebar__space container">
+  <section class="posts" aria-label="Content">
+    {% if site.posts.size == 0 %}
+    <p class="post__nopost">Vish, não encontramos nenhum post para mostrar :(</p>
+    {% else %} {% for post in paginator.posts %}
+    <div class="post">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3 class="post__title">{{ post.title }}</h3>
+        {% if post.tags.size > 0 %} {% for tag in post.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %} {% endif %}
 
-<main class="posts sidebar__space container" aria-label="Content">
-  {% if site.posts.size == 0 %}
-  <p class="post__nopost">Vish, não encontramos nenhum post para mostrar :(</p>
-  {% else %} {% for post in site.posts %}
-  <div class="post">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <h3 class="post__title">{{ post.title }}</h3>
-      {% if post.tags.size > 0 %} {% for tag in post.tags %}
-      <span class="tag">{{ tag }}</span>
-      {% endfor %} {% endif %}
+        <div class="post__text">{{ post.excerpt }}</div>
+        <div class="post__date">{{ post.date | date_to_string }}</div>
+      </a>
+    </div>
+    {% endfor %} {% endif %}
 
-      <div class="post__text">{{ post.excerpt }}</div>
-      <div class="post__date">{{ post.date | date_to_string }}</div>
-    </a>
-  </div>
-  {% endfor %} {% endif %}
-</main>
+    <!-- Pagination links -->
+    {% if paginator.next_page %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+        Previous
+      </a>
+      {% else %}
+      <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
+      {% else %}
+      <span class="next ">Next</span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </section>
+</div>
+
+<script src="{{ site.baseurl }}/js/libraries/jquery-3.4.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/libraries/jquery.jscroll.min.js"></script>
+<script>
+  $('.posts').jscroll({
+    contentSelector: '.posts',
+    nextSelector: '.next'
+  })
+</script>

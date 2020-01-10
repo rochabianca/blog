@@ -10,7 +10,7 @@ image: "assets/posts/highlight-js/asset-1.jpg"
 description: 'Tenho adotado uma maneira bem prática para ir adicionando as novas funções neste blog: o famigerado "quando eu precisar eu vejo" o que funciona bastante para evitar ter dor de cabeça antes da hora, mas infelizmente também quer dizer que eu vou ter que sair implementando coisa antes de fazer um post'
 ---
 
-![um monitor com o código a mostra](assets/posts/highlight-js/asset-1.jpg)
+![um monitor com o código a mostra]({{ site.baseurl }}/assets/posts/highlight-js/asset-1.jpg)
 
 Tenho adotado uma maneira bem prática para ir adicionando as novas funções neste blog: o famigerado "quando eu precisar eu vejo" o que funciona bastante para evitar ter dor de cabeça antes da hora, mas infelizmente também quer dizer que eu vou ter que sair implementando coisa antes de fazer um post, [o que foi o caso do último post](https://rochabianca.github.io/blog/slots-em-vue){:target="\_blank"} onde eu vi pela primeira vez o padrão das tags `<code>` e de cara não agradou nada a minha vista.
 

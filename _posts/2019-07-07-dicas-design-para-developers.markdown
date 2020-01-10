@@ -10,7 +10,7 @@ tags:
 image: 'assets/posts/dicas-design-para-developers/asset-0.jpg'
 ---
 
-![](assets/posts/dicas-design-para-developers/asset-0.jpg)
+![]({{ site.baseurl }}/assets/posts/dicas-design-para-developers/asset-0.jpg)
 
 Olá! Nesse texto preparei um compilado de algumas dicas que podem te ajudar a criar layouts mais bonitos, mesmo sabendo pouco ou quase nada de design. Espero que seja útil :D
 

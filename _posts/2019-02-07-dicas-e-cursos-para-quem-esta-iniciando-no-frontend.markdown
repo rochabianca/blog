@@ -13,7 +13,7 @@ image: 'assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1
 description: "Uma das coisas que eu mais vejo nos grupos de Front é 'por onde começar?' Você vê todos aqueles sites maravilhosos, cheios de animações, efeitos, cores e não faz a mínima ideia de como repetir tais feitos. Bom, eu estou aqui para tentar te ajudar nesse caminho!"
 ---
 
-![](assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg)
+![]({{ site.baseurl }}/assets/posts/dicas-e-cursos-para-quem-esta-iniciando-no-frontend/asset-1.jpg)
 
 Olá pessoas. Uma das coisas que eu mais vejo nos grupos de Front do Telegram (e que também passei ao tentar iniciar esta carreira) é… Por onde começar? Você vê todos aqueles sites maravilhosos, cheios de animações, efeitos, cores e não faz a mínima ideia de como repetir tais feitos. E quando você vai procurar por vagas, lhe pedem mil frameworks, React, Vue, Angular, Jquery e você simplesmente não sabe por onde começar a estudar. Bom, eu estou aqui para tentar te ajudar nesse caminho :D
 
