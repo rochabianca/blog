@@ -32,21 +32,18 @@ layout: default
 
     <!-- Pagination links -->
     {% if paginator.next_page %}
-    <div class="pagination">
+    <div class="pagination text-center">
       {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous tag">
         Previous
       </a>
       {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous tag disabled">Previous</span>
       {% endif %}
-      <span class="page_number ">
-        Page: {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next tag">Next</a>
       {% else %}
-      <span class="next ">Next</span>
+      <span class="next tag disabled">Next</span>
       {% endif %}
     </div>
     {% endif %}
@@ -57,9 +54,7 @@ layout: default
 <script src="{{ site.baseurl }}/js/libraries/jquery.jscroll.min.js"></script>
 <script>
   $('.posts').jscroll({
-    /* next function to work:
-    loadingHtml:'<small>Loading...</small>',
-    */
+    loadingHtml: '<img class="loading" src="{{site.baseurl}}/assets/images/loading.gif" alt="Loading...">',
     contentSelector: '.posts',
     nextSelector: '.next'
   })
