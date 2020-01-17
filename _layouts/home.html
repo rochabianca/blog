@@ -53,9 +53,11 @@ layout: default
 <script src="{{ site.baseurl }}/js/libraries/jquery-3.4.1.min.js"></script>
 <script src="{{ site.baseurl }}/js/libraries/jquery.jscroll.min.js"></script>
 <script>
-  $('.posts').jscroll({
-    loadingHtml: '<img class="loading" src="{{site.baseurl}}/assets/images/loading.gif" alt="Loading...">',
-    contentSelector: '.posts',
-    nextSelector: '.next'
+  $(document).ready(function () {
+    $('.posts').jscroll({
+      loadingHtml: '<img class="loading" src="{{site.baseurl}}/assets/images/loading.gif" alt="Loading...">',
+      contentSelector: '.posts',
+      nextSelector: '.next'
+    })
   })
 </script>
