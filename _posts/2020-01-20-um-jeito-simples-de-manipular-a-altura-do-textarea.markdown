@@ -39,7 +39,7 @@ import autosize from 'autosize';
 
 export default {
   mounted() {
-    autosize(document.querySelector('.post__comment__input'));
+    autosize(document.querySelector('.resized-textarea'));
   },
 };
 </script>
