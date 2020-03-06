@@ -78,7 +78,7 @@ Dá uma olhada no título acima. Vê essas “perninhas” no “S”, “r�
 
 ![](assets/posts/dicas-design-para-developers/asset-7.jpg)
 
-Como você provavelmente já está pensando, são tipografias sem serifas. Se você observar os mesmos “S”, “r” e “f” vai notar que não existem mais as perninhas. **S**​ **ão consideradas tipografias neutras e modernas**,**​** uma vez que tem uma boa adesão na web, mas também possuem boa legibilidade e leiturabilidade, fazendo com que possam ser ​**utilizadas tanto em textos longos como em títulos​** (você provavelmente já notou, mas a tipografia usada neste texto é uma sem serifa). <br/>
+Como você provavelmente já está pensando, são tipografias sem serifas. Se você observar os mesmos “S”, “r” e “f” vai notar que não existem mais as perninhas. **São consideradas tipografias neutras e modernas**, uma vez que tem uma boa adesão na web, mas também possuem boa legibilidade e leiturabilidade, fazendo com que possam ser ​**utilizadas tanto em textos longos como em títulos​** (você provavelmente já notou, mas a tipografia usada neste texto é uma sem serifa). <br/>
 
 **Exemplos de Sites que usam tipografias sem serifas:**
 
@@ -105,7 +105,7 @@ Vamos mais uma vez olhar o texto acima: percebe como parece algo feito a mão? 
 
 ![](assets/posts/dicas-design-para-developers/asset-9.jpg)
 
-Essa definitivamente vai ser a tipografia mais fácil de classificar: **é todo o resto**.**​** O que não é serifada, não é sem serifa, não é scriptédisplay.Assimcomoascript,**e**​ **lafoifeitaparatítulos, anúncios e marcas​** e, assim como a display:
+Essa definitivamente vai ser a tipografia mais fácil de classificar: **é todo o resto**.**​** O que não é serifada, não é sem serifa, não é script é display. Assim como a script,**ela foi feita para títulos, anúncios e marcas​** e, assim como a display:
 
 > ### Você nunca.
 >
