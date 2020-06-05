@@ -19,6 +19,8 @@ Faz um bom tempo que, na empresa onde trabalho, utilizamos um arquivo geral de v
 
 O primeiro que essa abordagem gerava era que ela dependia que todos os meus colegas lembrassem de importar as variáveis, ou usassem meu snippet. E o segundo problema era que tudo bem, enquanto fossem apenas variáveis no arquivo esse tipo de abordagem não complicaria muito o tamanho do bundle final, uma vez que, ao ser compilado, a única coisa que aconteceria é que as variáveis seriam substituídas por seus respectivos valores e nenhum código css seria adicionado. Mas e se alguém adicionasse um código css ali por engano? Dependendo do código isso poderia impactar seriamente o bundle final da aplicação. Por conta disso, eu estava procurando uma solução mais aceitável para esse problema, e acabei topando com [essa pergunta no Stack Overflow](https://stackoverflow.com/questions/35580710/using-sass-variables-in-a-vuejs-component){:target="\_blank"}.
 
+<b>Edit:</b>: Quando publiquei esse post, um usuário chamado Fagner P do grupo VueJS Brasil, me alertou que uma outra abordagem possivel seria importar o arquivo de variáveis no `App.vue`. Infelizmente, por motivos ainda desconhecidos, essa solução não funciona na plataforma em que trabalho, mas pode ser que funcione na sua, então vale tentar antes de seguir com esse tutorial. E valeu Fagner pelo aviso!
+
 E qual a solução que eu achei nessa pergunta? Bem simples, na real a única coisa que você precisa fazer é adicionar o código abaixo ao seu `vue.config.js`:
 
 ```
