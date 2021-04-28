@@ -3,44 +3,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:url" content="https://rochabianca.github.io/blog/" />
+
   {% if page.image %}
-  <meta
-    property="og:image"
-    content="{{ page.image | prepend: site.baseurl }}"
-  />
+  <meta property="og:image" content="{{ page.image | prepend: site.baseurl }}" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page.image | prepend: site.baseurl }}">
   {% endif %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <link rel="shortcut icon" type="image/png" href="favicon.png" />
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=UA-147254539-1"
-  ></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147254539-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
-      dataLayer.push(arguments);
+      dataLayer.push( arguments );
     }
-    gtag("js", new Date());
+    gtag( "js",new Date() );
 
-    gtag("config", "UA-147254539-1");
+    gtag( "config","UA-147254539-1" );
   </script>
   <title>
     {% if page.title %} {{ page.title }} {% else %} {{ site.title }} | {{
     site.subtitle }} {% endif %}
   </title>
   {%- seo -%}
-  <link
-    rel="stylesheet"
-    href="{{ '/assets/css/bootstrap-grid.min.css' | | prepend: site.baseurl }}"
-  />
-  <link
-    rel="stylesheet"
-    href="{{ '/assets/main.css' | | prepend: site.baseurl }}"
-  />
-  <link
-    href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap-grid.min.css' | | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ '/assets/main.css' | | prepend: site.baseurl }}" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,800&display=swap" rel="stylesheet" />
 
   <script src="https://kit.fontawesome.com/05089ac344.js"></script>
   {%- feed_meta -%} {%- if jekyll.environment == 'production' and
