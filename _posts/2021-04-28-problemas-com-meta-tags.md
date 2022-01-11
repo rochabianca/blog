@@ -6,7 +6,8 @@ tags:
   - Dicas
   - SEO
   - Meta tags
-author: 'assets/posts/problemas-com-meta-tags/asset-1.jpeg'
+image: https://rochabianca.github.io/blog/assets/posts/problemas-com-meta-tags/asset-1.jpeg
+author: 'Bianca Rocha'
 description: "Pode não resolver todos os seus problemas, mas vai facilitar BASTANTE"
 ---
 
